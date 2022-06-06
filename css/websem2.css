@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center; 
+   /* permite centrar el texto  */
+   font-size: 35px;
+   color: white;
+}
+
+article    {
+    float: left;
+    padding: 20px;
+    /* da un margen  */
+    width: 100%;
+    background-color: lightgray;
+    height: 400px;
+
+}
+footer {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

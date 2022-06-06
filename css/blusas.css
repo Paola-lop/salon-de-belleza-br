@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: #0c0c0c;;
+    padding: 30px;
+    
+}
+nav{ 
+    position: relative; 
+    display: block; 
+    z-index: 0; 
+    } 
+    
+
+article    {
+    float: center;
+    padding: 40px;
+    /* da un margen  */
+    width: 100%;
+    background-color: black;
+    height: 3500px;
+    text-align: center;
+    color: white;
+
+}
+footer {
+    background-color: #c06f95;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

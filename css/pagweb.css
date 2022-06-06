@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial , Helvetica, sans-serif;
+}
+
+header {
+    background-color: #FF9AA2;
+    padding: 30px;
+    text-align: center; 
+   /* permite centrar el texto  */
+  font-size: 3 5px;
+   color: white;
+}

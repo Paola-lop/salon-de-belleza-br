@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center; 
+   /* permite centrar el texto  */
+   font-size: 35px;
+   color: white;
+}
+
+/* CREAR DOSCULUMNAS ... CAJAS QUE FLOTAN UNA ALADO DE LA OTRA */
+nav {
+    float: left;
+    width: 15%;
+    /* Dar tamaño de ancho al nav */
+    height: 400px;
+    /* Dar altura al nav */
+    background-color: #ccc;
+    padding: 20px;
+}
+/* ESTILO PARA LISTA DE MENU NAV  */
+nav {
+    list-style-type: none;
+    /* Da estilo a las biñetas  */
+    padding: 0;
+
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 85%;
+    /* la altura y anchura se deben complementar */
+    background-color:darkgrey;
+    height: 400px;
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    color: darkslateblue;
+}
